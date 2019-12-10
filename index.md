@@ -1,37 +1,14 @@
 ## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/despot11/shiqi290/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/despot11/shiqi290/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+超速报警码表以arduino为开发平台，使用霍尔传感器测速，并用LCD显示屏显示实时速度与累计里程。 通过将磁铁安装在自行车辐条上，霍尔传感器固定在车架上、距离磁铁较近的位置。当磁铁两次经过霍尔传感器时，计算时间差，通过车轮半径推算速度。速度为30-40公里每小时时，车轮每转一圈，警报响一次。速度超过40公里每小时时，警报长鸣。LCD上的速度与里程每秒更新一次。
+一：准备材料：
+1.蜂鸣器 数量：1
+2.电位器 数量：1
+3.显示屏 数量：1
+4.面包板 数量：1
+5.传感器 数量：1
+6.Arduino开发板 数量：1
+7.电池、导线 数量：若干
+二：制作步骤
+1.首先在Arduino的软件上编好程序
+2.按照程序组装好
+3.将磁铁安装在自行车辐条上，霍尔传感器固定在车架上距离磁铁较近的位置。当磁铁两次经过霍尔传感器时，计算时间差，通过车轮半径推算速度。并将时速和里程信息显示在显示屏上。检查蜂鸣器在达到一定速度时是否会发出警报
